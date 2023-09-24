@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Aide</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="header">
+    <h1>Bienvenue sur la page Aide !</h1>
+  </div>
+
+  <h2>Comment fonctionne le décodeur de trame ?</h2>
+
+  <h3>Objectifs</h3> 
+
+  <h4>L’objectif du projet est de récupérer et analyser des trames Ethernet d'un satellite afin d'en tirer les informations voulues pour ensuite les publier sur un site web avec lequel on pourra voir les données du test souhaité. On doit pouvoir modifier les valeurs et si on veut, pouvoir les extraire dans un fichier Excel, qui contiendra la base de données des trames.<br>
+  <br>
+  Le but est de parvenir à décoder un fichier contenant des trames en binaire extraites d’un satellite grâce à un programme python qui prendra en paramètre le fichier contenant les trames binaires. Ensuite, le programme devra extraire les informations voulues et les stocker sur la base de données. L’utilisateur doit pouvoir accéder aux trames par rapport à la date d’exécution, modifier les noms des champs, créer un fichier csv ou Excel regroupant la base de données et aussi avoir la possibilité de supprimer les trames en fonction de la date d’exécution.
+  </h4>
+
+  <br>
+
+  <h3>Fonctionnement du site Web</h3>
+
+  <h4>
+  <strong>ETAPE 1 :</strong> Exécuter le programme python "main.py" ce qui permettra d'insérer les trames du test dans la base de données (phpMyAdmin)
+  <br>
+  <strong>ETAPE 2 :</strong> Rafraichir le site Web et sélectionner le test 
+  <br>
+  <strong>ETAPE 3 :</strong> Choisir la bonne date d'exécution du test ce qui permettra de filtrer et d'afficher moins de ligne
+  <br>
+  <strong>ETAPE 4 :</strong> Cliquer sur le bouton "Voir les trames"
+  <br>
+  <br>
+  Vous pouvez également supprimer le test correspondant à la date d'exécution sélectionné, renommer les champs de la base de données et même exporter en format Excel le tableau affiché. 
+
+  </h4>
+</body>
